@@ -18,7 +18,10 @@ def main(base_path: str, monitor_mm=None, monitor_pixels=None):
     next(source)  # start webcam
 
     if monitor_mm is None or monitor_pixels is None:
-        monitor_mm, monitor_pixels = get_monitor_dimensions()
+        # 수정
+        monitor_mm = [6000,3400]
+        monitor_pixels = [1920,1080]
+        # monitor_mm, monitor_pixels = get_monitor_dimensions()
         if monitor_mm is None or monitor_pixels is None:
             raise ValueError('Please supply monitor dimensions manually as they could not be retrieved.')
     print(f'Found default monitor of size {monitor_mm[0]}x{monitor_mm[1]}mm and {monitor_pixels[0]}x{monitor_pixels[1]}px.')

@@ -50,11 +50,15 @@ class Plot3DScene:
             self.face_scatter.set_data_3d(face_landmarks[0, :], face_landmarks[1, :], face_landmarks[2, :])
 
     def plot_center_point(self, center_point: np.ndarray, gaze_vector_3d_normalized) -> None:
-        point = center_point.reshape(3) + 1000 * gaze_vector_3d_normalized.reshape(3)
-
+        point = center_point.reshape(3) + 5000 * gaze_vector_3d_normalized.reshape(3)   #1000 -> 5000
+        print('center',center_point, type(center_point))
+        print('point', point, type(point))
+        # center_point를 1차원 배열로 변환
+        center_point = np.ravel(center_point) 
         if self.center_point is None:
             self.center_point = self.ax.plot([center_point[0], point[0]], [center_point[1], point[1]], [center_point[2], point[2]], color='#2ca02c', label='gaze vector')[0]
         else:
+            print('passed')
             self.center_point.set_data_3d([center_point[0], point[0]], [center_point[1], point[1]], [center_point[2], point[2]])
 
     def plot_point_on_screen(self, point_on_screen):

@@ -110,6 +110,9 @@ def ray_plane_intersection(support_vector: np.ndarray, direction_vector: np.ndar
     :param plane_d: d of the plane
     :return: point in 3D where the the person is looking at on the screen
     """
+    # # 방향 벡터를 적절히 스케일링
+    # scale_factor = 5000  # 시선의 방향 벡터 크기 조정
+    # direction_vector = direction_vector * scale_factor
     a11 = direction_vector[1]
     a12 = -direction_vector[0]
     b1 = direction_vector[1] * support_vector[0] - direction_vector[0] * support_vector[1]

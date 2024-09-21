@@ -71,7 +71,7 @@ def normalize_single_image(image: np.ndarray, head_rotation, gaze_target: np.nda
     """
     # normalized camera parameters
     focal_norm = 960  # focal length of normalized camera
-    distance_norm = 500 if is_eye else 1600  # normalized distance between eye and camera
+    distance_norm = 300 if is_eye else 1600  # normalized distance between eye and camera   # 500mm -> 300mm로 수정
     image_output_size = (96, 64) if is_eye else (96, 96)  # size of cropped eye image
 
     # compute estimated 3D positions of the landmarks
