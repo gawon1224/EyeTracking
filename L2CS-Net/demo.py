@@ -61,6 +61,18 @@ if __name__ == '__main__':
         raise IOError("Cannot open webcam")
 
     with torch.no_grad():
+        coord_list = []
+        init_x = []
+        init_y=[]
+        sigma = 25  # 가우시안 Blob의 표준 편차
+        blob_intensity = 1.0  # Blob의 강도
+        x_indices = np.arange(1600)
+        y_indices = np.arange(1200)
+        X, Y = np.meshgrid(x_indices, y_indices)
+        c =[]
+        M = np.ndarray((1200,1600))
+        demo_img = np.ones((1600,1200))
+        coordinates = []
         while True:
 
             # Get frame

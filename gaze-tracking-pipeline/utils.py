@@ -95,7 +95,7 @@ def gaze_2d_to_3d(gaze: np.ndarray) -> np.ndarray:
     :return: 3d vector
     """
     x = -np.cos(gaze[0]) * np.sin(gaze[1])
-    y = -np.sin(gaze[0])
+    y = -np.sin(gaze[0])  ## l2csnet에선 gaze[1]사용?
     z = -np.cos(gaze[0]) * np.cos(gaze[1])
     return np.array([x, y, z])
 

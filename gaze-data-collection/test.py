@@ -20,7 +20,14 @@
 import cv2
 
 # 웹캠 열기
-cap = cv2.VideoCapture(0)  # 0은 기본 웹캠 장치를 의미
+cap = cv2.VideoCapture(1)  # 0은 기본 웹캠 장치를 의미
+for i in range(10):  # 0부터 9까지 장치 인덱스 테스트
+    cap = cv2.VideoCapture(i)
+    if cap.isOpened():
+        print(f"Camera {i} is available")
+    else:
+        print(f"Camera {i} is not available")
+
 
 if not cap.isOpened():
     print("Cannot open camera")

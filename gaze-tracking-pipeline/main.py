@@ -506,7 +506,8 @@ def main(calibration_matrix_path: str, monitor_mm=None, monitor_pixels=None, mod
     # setup monitor
     if monitor_mm is None or monitor_pixels is None:
         # 수정
-        monitor_mm = [6000,3400]
+        # monitor_mm = [6000,3400] #27인치 데스크탑
+        monitor_mm = [355,250]
         monitor_pixels = [1920,1080]
         # monitor_mm, monitor_pixels = get_monitor_dimensions()
         if monitor_mm is None or monitor_pixels is None:
