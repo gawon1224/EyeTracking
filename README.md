@@ -1,3 +1,11 @@
+# Wrap up Report
+[eye tracking wrap up report.pdf](https://github.com/user-attachments/files/17177760/eye.tracking.wrap.up.report.pdf)
+# Pipeline
+![image01](https://github.com/user-attachments/assets/d35b9ded-5506-4fe1-be57-b77f29436546)
+
+# Demo Result
+https://github.com/user-attachments/assets/ca308098-6919-4348-9618-f666676346b4
+
 # Usage
 ## Install packages and prepare 
 1. git clone https://github.com/gawon1224/EyeTracking.git
@@ -9,8 +17,3 @@
 # 실행 명령
 python demo0922.py --snapshot models/L2CSNet_gaze360.pkl
 ```
-# Demo Result
-
-https://github.com/user-attachments/assets/ca308098-6919-4348-9618-f666676346b4
-
-[eye tracking wrap up report.pdf](https://github.com/user-attachments/files/17177760/eye.tracking.wrap.up.report.pdf)
