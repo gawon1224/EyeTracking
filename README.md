@@ -13,3 +13,4 @@ python demo0922.py --snapshot models/L2CSNet_gaze360.pkl
 
 https://github.com/user-attachments/assets/ca308098-6919-4348-9618-f666676346b4
 
+[eye tracking wrap up report.pdf](https://github.com/user-attachments/files/17177760/eye.tracking.wrap.up.report.pdf)
