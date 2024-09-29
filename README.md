@@ -10,6 +10,6 @@
 python demo0922.py --snapshot models/L2CSNet_gaze360.pkl
 ```
 # Demo Result
-https://github.com/user-attachments/assets/f5a976cd-18a1-4000-8ace-55deff621038
 
+https://github.com/user-attachments/assets/ca308098-6919-4348-9618-f666676346b4
 
