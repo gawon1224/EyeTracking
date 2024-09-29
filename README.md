@@ -1,7 +1,7 @@
 # Wrap up Report
 [eye tracking wrap up report.pdf](https://github.com/user-attachments/files/17177760/eye.tracking.wrap.up.report.pdf)
 # Pipeline
-![image01](https://github.com/user-attachments/assets/d35b9ded-5506-4fe1-be57-b77f29436546)
+![Pipeline](https://github.com/user-attachments/assets/e320bf6b-173d-40c9-a58b-1189c8682243)
 
 # Demo Result
 https://github.com/user-attachments/assets/ca308098-6919-4348-9618-f666676346b4
