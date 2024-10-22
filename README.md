@@ -4,8 +4,7 @@
 )
 )
 ## Pipeline
-![Pipeline](![eye tracking pipeline](https://github.com/user-attachments/assets/acafd894-4b6e-4c53-b4d6-ed983a758fd7))
-
+![eye tracking pipeline](https://github.com/user-attachments/assets/2ff796d5-0ff7-4f22-b6f0-9455c1d725ce)
 
 ## Demo Result
 https://github.com/user-attachments/assets/ca308098-6919-4348-9618-f666676346b4
