@@ -1,8 +1,7 @@
 # Eye-tracking method for knowing where people are looking on the monitor
 ## Wrap up Report
-[eye tracking wrap up report.pdf]([eye tracking report.pdf](https://github.com/user-attachments/files/17470304/eye.tracking.report.pdf)
-)
-)
+[eye tracking report.pdf](https://github.com/user-attachments/files/17470304/eye.tracking.report.pdf)
+
 ## Pipeline
 ![eye tracking pipeline](https://github.com/user-attachments/assets/2ff796d5-0ff7-4f22-b6f0-9455c1d725ce)
 
