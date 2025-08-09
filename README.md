@@ -5,9 +5,6 @@
 ## Pipeline
 ![eye tracking pipeline](https://github.com/user-attachments/assets/2ff796d5-0ff7-4f22-b6f0-9455c1d725ce)
 
-## Demo Result
-https://github.com/user-attachments/assets/ca308098-6919-4348-9618-f666676346b4
-
 ## Usage
 ### Install packages and prepare 
 1. git clone https://github.com/gawon1224/EyeTracking.git
