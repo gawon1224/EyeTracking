@@ -6,7 +6,7 @@
 ![eye tracking pipeline](https://github.com/user-attachments/assets/2ff796d5-0ff7-4f22-b6f0-9455c1d725ce)
 
 ## Demo Video
-https://github.com/gawon1224/EyeTracking/blob/main/eye%20tracking%20left%20to%20right.mp4
+https://github.com/user-attachments/assets/96e0ff93-f963-4b24-81b4-fbee77e12944
 
 ## Usage
 ### Install packages and prepare 
